@@ -103,7 +103,7 @@ zstd-nginx-module
 
 ## Build Details
 
-This build uses OpenSSL 3.5.7 for TLS, HTTP/3, QUIC, and KTLS support.
+This build uses OpenSSL 3.5.8 for TLS, HTTP/3, QUIC, and KTLS support.
 
 Check the OpenSSL version reported by Nginx:
 
