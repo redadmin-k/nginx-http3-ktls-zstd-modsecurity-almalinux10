@@ -89,9 +89,9 @@ sudo systemctl restart nginx
 OS: AlmaLinux 10 x86_64
 Build Tool: mock
 Mock Config: alma+epel-10-x86_64
-Nginx Version: 1.30.3
-OpenSSL Version: 3.5.7
-ModSecurity Version: 3.0.15
+Nginx Version: 1.30.4
+OpenSSL Version: 3.5.8
+ModSecurity Version: 3.0.16
 ```
 
 Additional modules:

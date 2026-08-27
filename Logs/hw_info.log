@@ -48,11 +48,11 @@ Vulnerability Vmscape:                   Not affected
 
 Memory:
                total        used        free      shared  buff/cache   available
-Mem:           3.6Gi       614Mi       2.3Gi        12Mi       875Mi       3.0Gi
+Mem:           3.6Gi       614Mi       2.5Gi        12Mi       688Mi       3.0Gi
 Swap:          3.9Gi          0B       3.9Gi
 
 
 Storage (chroot, cache_topdir):
 Filesystem     Type  Size  Used Avail Use% Mounted on
-/dev/vda4      xfs    49G   12G   37G  25% /
-/dev/vda4      xfs    49G   12G   37G  25% /
+/dev/vda4      xfs    49G   12G   37G  24% /
+/dev/vda4      xfs    49G   12G   37G  24% /
