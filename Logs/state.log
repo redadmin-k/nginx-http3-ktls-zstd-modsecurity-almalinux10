@@ -1,22 +1,26 @@
-2026-09-22 00:08:33,641 - Mock Version: 6.8
-2026-09-22 00:08:33,645 - Start(bootstrap): chroot init
-2026-09-22 00:08:33,657 - Start(bootstrap): cleaning package manager metadata
-2026-09-22 00:08:33,659 - Finish(bootstrap): cleaning package manager metadata
-2026-09-22 00:08:34,177 - Finish(bootstrap): chroot init
-2026-09-22 00:08:34,178 - Start: chroot init
-2026-09-22 00:08:34,185 - Start: cleaning package manager metadata
-2026-09-22 00:08:34,213 - Finish: cleaning package manager metadata
-2026-09-22 00:08:34,826 - Start: installing minimal buildroot with dnf
-2026-09-22 00:09:29,159 - Finish: installing minimal buildroot with dnf
-2026-09-22 00:09:29,379 - Start: creating root cache
-2026-09-22 00:09:31,093 - Finish: creating root cache
-2026-09-22 00:09:31,107 - Finish: chroot init
-2026-09-22 00:09:31,267 - Start: build phase for nginx-1.30.5-1.alma10.src.rpm
-2026-09-22 00:09:31,267 - Start: build setup for nginx-1.30.5-1.alma10.src.rpm
-2026-09-22 00:10:19,250 - Finish: build setup for nginx-1.30.5-1.alma10.src.rpm
-2026-09-22 00:10:19,250 - Start: rpmbuild nginx-1.30.5-1.alma10.src.rpm
-2026-09-22 00:10:19,251 - Start: Outputting list of installed packages
-2026-09-22 00:10:19,554 - Finish: Outputting list of installed packages
-2026-09-22 06:45:55,215 - Finish: rpmbuild nginx-1.30.5-1.alma10.src.rpm
-2026-09-22 06:45:55,722 - Finish: build phase for nginx-1.30.5-1.alma10.src.rpm
-2026-09-22 06:45:55,725 - Finish: run
+2026-09-30 19:17:39,547 - Mock Version: 6.8
+2026-09-30 19:17:39,552 - Start(bootstrap): chroot init
+2026-09-30 19:17:39,577 - Start(bootstrap): cleaning package manager metadata
+2026-09-30 19:17:39,577 - Finish(bootstrap): cleaning package manager metadata
+2026-09-30 19:18:08,884 - Start(bootstrap): creating root cache
+2026-09-30 19:18:10,867 - Finish(bootstrap): creating root cache
+2026-09-30 19:18:10,867 - Finish(bootstrap): chroot init
+2026-09-30 19:18:10,869 - Start: chroot init
+2026-09-30 19:18:10,878 - Start: unpacking root cache
+2026-09-30 19:18:11,942 - Finish: unpacking root cache
+2026-09-30 19:18:11,945 - Start: cleaning package manager metadata
+2026-09-30 19:18:11,986 - Finish: cleaning package manager metadata
+2026-09-30 19:18:12,334 - Start: dnf4 update
+2026-09-30 19:19:52,497 - Start: creating root cache
+2026-09-30 19:19:54,230 - Finish: creating root cache
+2026-09-30 19:19:54,231 - Finish: dnf4 update
+2026-09-30 19:19:55,454 - Finish: chroot init
+2026-09-30 19:19:55,455 - Start: build phase for nginx-1.30.5-1.alma10.src.rpm
+2026-09-30 19:19:55,455 - Start: build setup for nginx-1.30.5-1.alma10.src.rpm
+2026-09-30 19:22:24,862 - Finish: build setup for nginx-1.30.5-1.alma10.src.rpm
+2026-09-30 19:22:24,862 - Start: rpmbuild nginx-1.30.5-1.alma10.src.rpm
+2026-09-30 19:22:24,864 - Start: Outputting list of installed packages
+2026-09-30 19:22:25,140 - Finish: Outputting list of installed packages
+2026-10-01 00:23:37,159 - Finish: rpmbuild nginx-1.30.5-1.alma10.src.rpm
+2026-10-01 00:23:37,215 - Finish: build phase for nginx-1.30.5-1.alma10.src.rpm
+2026-10-01 00:23:37,218 - Finish: run
