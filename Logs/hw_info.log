@@ -27,19 +27,19 @@ L3 cache:                                64 MiB (4 instances)
 NUMA node(s):                            1
 NUMA node0 CPU(s):                       0-3
 Vulnerability Gather data sampling:      Not affected
-Vulnerability Indirect target selection: Mitigation; Aligned branch/return thunks
+Vulnerability Indirect target selection: Not affected
 Vulnerability Itlb multihit:             Not affected
 Vulnerability L1tf:                      Not affected
 Vulnerability Mds:                       Not affected
 Vulnerability Meltdown:                  Not affected
 Vulnerability Mmio stale data:           Not affected
 Vulnerability Old microcode:             Not affected
-Vulnerability Reg file data sampling:    Vulnerable: No microcode
+Vulnerability Reg file data sampling:    Mitigation; Clear Register File
 Vulnerability Retbleed:                  Not affected
 Vulnerability Spec rstack overflow:      Not affected
 Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
 Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
-Vulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS Not affected; BHI SW loop, KVM SW loop
+Vulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS Not affected; BHI BHI_DIS_S
 Vulnerability Srbds:                     Not affected
 Vulnerability Tsa:                       Not affected
 Vulnerability Tsx async abort:           Not affected
@@ -48,8 +48,8 @@ Vulnerability Vmscape:                   Not affected
 
 Memory:
                total        used        free      shared  buff/cache   available
-Mem:           3.6Gi       753Mi       1.1Gi         9Mi       2.0Gi       2.8Gi
-Swap:          3.9Gi       3.8Mi       3.9Gi
+Mem:           3.6Gi       664Mi       1.5Gi        13Mi       1.7Gi       2.9Gi
+Swap:          3.9Gi          0B       3.9Gi
 
 
 Storage (chroot, cache_topdir):
